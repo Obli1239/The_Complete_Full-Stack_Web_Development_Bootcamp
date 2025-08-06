@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+header{
+    background-image: url(./assets/elif-koyuturk-uNliRqlmBdg-unsplash.jpg);
+    background-position: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 15px solid #f3f8f859;
+    border-bottom: 15px solid #f3f8f859;
+}
+
+header>div{
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    color: rgb(59, 41, 19);
+    text-shadow: 2px 2px 3px rgb(2, 1, 1);
+}
+
+h2{
+    color: rgb(101, 107, 107);
+    text-shadow: 1px 1px 1px rgb(5, 26, 6);
+}
+
+.header{
+    padding: 10px 0px;
+}
+
+a{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4f59572f;
+    text-decoration : none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(20, 73, 20);
+    background-color: ;
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    gap: 30px;
+    padding-right: 40px;
+}
+
+.container{
+    background-image: url(./assets/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.container>div{
+    width: 40%;
+
+    margin: 50px 0px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(122, 136, 118);
+}
+
+.container>div>ul{
+    padding: 0px;
+}
+
+
+div#Objectif_personnel>div>img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
